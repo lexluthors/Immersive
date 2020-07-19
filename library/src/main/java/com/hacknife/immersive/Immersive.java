@@ -3,7 +3,6 @@ package com.hacknife.immersive;
 import android.app.Activity;
 import android.os.Build;
 import android.os.Build.VERSION;
-import android.support.annotation.LayoutRes;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,9 +10,10 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.FrameLayout;
 
-
 import com.hacknife.immersive.R.color;
 import com.hacknife.immersive.R.id;
+
+import androidx.annotation.LayoutRes;
 
 
 /**

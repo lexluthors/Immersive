@@ -3,10 +3,11 @@ package com.hacknife.immersive;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.WindowManager;
+
+import androidx.annotation.RequiresApi;
 
 /**
  * author  : Hacknife

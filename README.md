@@ -1,6 +1,6 @@
 # Immersive
 [![](https://img.shields.io/badge/platform-android-orange.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/language-java-yellow.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/Jcenter-1.1.0-brightgreen.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/license-apache--2.0-green.svg)](https://github.com/hacknife) [![](https://img.shields.io/badge/api-19+-green.svg)](https://github.com/hacknife)<br/><br/>
-一行代码实现沉浸式，适配android4.4到8.0+，沉浸式前所未有的简单。
+一行代码实现沉浸式，适配android4.4到8.0+，沉浸式前所未有的简单，androidx版本。
 </br></br>
 ![Image Text](https://github.com/hacknife/immersive/blob/master/immersive.gif)
 ## 代码示例
@@ -49,12 +49,10 @@ public class MainActivity extends AppCompatActivity {
 ```Java
 	dependencies {
                 ...
-	        implementation 'com.hacknife:immersive:1.1.0'
+	        implementation 'com.apecoder:immersive:0.0.1'
 	}
 ```
 
 <br><br><br>
-## 感谢浏览
-如果你有任何疑问，请加入QQ群，我将竭诚为你解答。欢迎Star和Fork本仓库，当然也欢迎你关注我。
-<br>
-![Image Text](https://github.com/hacknife/CarouselBanner/blob/master/qq_group.png)
+## 感谢
+https://github.com/hacknife/immersive

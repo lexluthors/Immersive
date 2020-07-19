@@ -2,10 +2,10 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 26
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
@@ -21,15 +21,16 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    compileOnly 'com.android.support:appcompat-v7:26.1.0'
+    compileOnly 'androidx.appcompat:appcompat:1.0.0'
 
 }
-publish{
-    userOrg = 'hacknife'
-    groupId = 'com.hacknife'
-    artifactId = 'immersive'
-    publishVersion = '1.1.0'
-    desc = '一行代码实现沉浸式'
-    website = 'https://github.com/hacknife/immersive'
+publish {
+    repoName = 'maven'  // 此字段为你的仓库名称，默认为"maven"，上传的时候记得检查，否则上传会报错
+    userOrg = 'lexluthors'  // bintray用户名
+    groupId = 'com.apecoder'  // 模块目录
+    artifactId = 'immersive'  // 此字段为你的模块名称，唯一标识符
+    publishVersion = '0.0.1'  // 版本号
+    desc = 'immersive androidX version'
+    website = 'https://github.com/lexluthors'
 }
 //gradlew clean build bintrayUpload  -PbintrayUser=hacknife -PbintrayKey=******* -PdryRun=false
